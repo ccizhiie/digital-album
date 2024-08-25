@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
+# Normalize all text files to LF
 * text=auto
+
+# Specify CRLF for specific file types
+*.md text eol=crlf
+
+# Ensure JavaScript files use LF
+*.js text eol=lf
