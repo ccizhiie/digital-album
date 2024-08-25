@@ -16,6 +16,8 @@ function App() {
           </Suspense>
         </group>
       </Canvas>
+      {/* Audio element */}
+      <audio src="/audios/hehe.mp3" autoPlay loop />
     </>
   );
 }
